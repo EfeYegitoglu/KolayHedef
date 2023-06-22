@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="MyButton">
+        <attr name="text" format="string" />
+        <attr name="icon" format="reference" />
+        <attr name="color" format="color" />
+        <attr name="btnTheme" format="enum">
+            <enum name="dark" value="0" />
+            <enum name="colored" value="1" />
+            <enum name="transparent" value="2" />
+        </attr>
+        <attr name="btnSize" format="enum">
+            <enum name="small" value="0" />
+            <enum name="large" value="1" />
+            <enum name="square" value="2" />
+        </attr>
+    </declare-styleable>
+
+</resources>

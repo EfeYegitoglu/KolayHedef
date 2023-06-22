@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Kolay Hedef</string>
+    <string name="unknown_error">Hata Meydana Geldi</string>
+    <string name="close">Kapat</string>
+    <string name="home">Ana Sayfa</string>
+    <string name="search">Keşfet</string>
+    <string name="calender">Takvim</string>
+    <string name="profile">Profil</string>
+    <string name="did_not_register">Henüz üye değil misin?</string>
+    <string name="log_in_by_google">Google ile giriş Yap</string>
+    <string name="log_in">Giriş Yap</string>
+    <string name="save">Kaydet</string>
+</resources>

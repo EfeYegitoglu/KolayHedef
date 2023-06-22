@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="app_bar_height">60dp</dimen>
+    <dimen name="back_button_size">16dp</dimen>
+    <dimen name="my_button_small_height">48dp</dimen>
+    <dimen name="my_button_large_height">58dp</dimen>
+    <dimen name="border_radius">4dp</dimen>
+</resources>

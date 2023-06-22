@@ -1,0 +1,100 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.kolayhedef"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+8-->C:\Users\efe.yegitoglu\AndroidStudioProjects\KolayHedef\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->C:\Users\efe.yegitoglu\AndroidStudioProjects\KolayHedef\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\efe.yegitoglu\AndroidStudioProjects\KolayHedef\app\src\main\AndroidManifest.xml:6:5-66
+11-->C:\Users\efe.yegitoglu\AndroidStudioProjects\KolayHedef\app\src\main\AndroidManifest.xml:6:22-64
+12
+13    <application
+13-->C:\Users\efe.yegitoglu\AndroidStudioProjects\KolayHedef\app\src\main\AndroidManifest.xml:8:5-30:19
+14        android:name="com.example.kolayhedef.Application"
+14-->C:\Users\efe.yegitoglu\AndroidStudioProjects\KolayHedef\app\src\main\AndroidManifest.xml:9:9-36
+15        android:allowBackup="true"
+15-->C:\Users\efe.yegitoglu\AndroidStudioProjects\KolayHedef\app\src\main\AndroidManifest.xml:10:9-35
+16        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+16-->[androidx.core:core:1.8.0] C:\Users\efe.yegitoglu\.gradle\caches\transforms-3\bc723e4f24141deab921c5fcf138d7b4\transformed\core-1.8.0\AndroidManifest.xml:24:18-86
+17        android:dataExtractionRules="@xml/data_extraction_rules"
+17-->C:\Users\efe.yegitoglu\AndroidStudioProjects\KolayHedef\app\src\main\AndroidManifest.xml:11:9-65
+18        android:debuggable="true"
+19        android:extractNativeLibs="false"
+20        android:fullBackupContent="@xml/backup_rules"
+20-->C:\Users\efe.yegitoglu\AndroidStudioProjects\KolayHedef\app\src\main\AndroidManifest.xml:12:9-54
+21        android:icon="@mipmap/ic_launcher"
+21-->C:\Users\efe.yegitoglu\AndroidStudioProjects\KolayHedef\app\src\main\AndroidManifest.xml:13:9-43
+22        android:label="@string/app_name"
+22-->C:\Users\efe.yegitoglu\AndroidStudioProjects\KolayHedef\app\src\main\AndroidManifest.xml:14:9-41
+23        android:roundIcon="@mipmap/ic_launcher_round"
+23-->C:\Users\efe.yegitoglu\AndroidStudioProjects\KolayHedef\app\src\main\AndroidManifest.xml:15:9-54
+24        android:supportsRtl="true"
+24-->C:\Users\efe.yegitoglu\AndroidStudioProjects\KolayHedef\app\src\main\AndroidManifest.xml:16:9-35
+25        android:testOnly="true"
+26        android:theme="@style/Theme.KolayHedef" >
+26-->C:\Users\efe.yegitoglu\AndroidStudioProjects\KolayHedef\app\src\main\AndroidManifest.xml:17:9-48
+27        <activity
+27-->C:\Users\efe.yegitoglu\AndroidStudioProjects\KolayHedef\app\src\main\AndroidManifest.xml:19:9-29:20
+28            android:name="com.example.kolayhedef.ui.MainActivity"
+28-->C:\Users\efe.yegitoglu\AndroidStudioProjects\KolayHedef\app\src\main\AndroidManifest.xml:20:13-44
+29            android:exported="true"
+29-->C:\Users\efe.yegitoglu\AndroidStudioProjects\KolayHedef\app\src\main\AndroidManifest.xml:21:13-36
+30            android:screenOrientation="portrait"
+30-->C:\Users\efe.yegitoglu\AndroidStudioProjects\KolayHedef\app\src\main\AndroidManifest.xml:22:13-49
+31            android:windowSoftInputMode="adjustPan" >
+31-->C:\Users\efe.yegitoglu\AndroidStudioProjects\KolayHedef\app\src\main\AndroidManifest.xml:23:13-52
+32            <intent-filter>
+32-->C:\Users\efe.yegitoglu\AndroidStudioProjects\KolayHedef\app\src\main\AndroidManifest.xml:24:13-28:29
+33                <action android:name="android.intent.action.MAIN" />
+33-->C:\Users\efe.yegitoglu\AndroidStudioProjects\KolayHedef\app\src\main\AndroidManifest.xml:25:17-69
+33-->C:\Users\efe.yegitoglu\AndroidStudioProjects\KolayHedef\app\src\main\AndroidManifest.xml:25:25-66
+34
+35                <category android:name="android.intent.category.LAUNCHER" />
+35-->C:\Users\efe.yegitoglu\AndroidStudioProjects\KolayHedef\app\src\main\AndroidManifest.xml:27:17-77
+35-->C:\Users\efe.yegitoglu\AndroidStudioProjects\KolayHedef\app\src\main\AndroidManifest.xml:27:27-74
+36            </intent-filter>
+37        </activity>
+38
+39        <uses-library
+39-->[androidx.window:window:1.0.0] C:\Users\efe.yegitoglu\.gradle\caches\transforms-3\bf9b0913d8e1b66853cb8b139ceeb845\transformed\window-1.0.0\AndroidManifest.xml:25:9-27:40
+40            android:name="androidx.window.extensions"
+40-->[androidx.window:window:1.0.0] C:\Users\efe.yegitoglu\.gradle\caches\transforms-3\bf9b0913d8e1b66853cb8b139ceeb845\transformed\window-1.0.0\AndroidManifest.xml:26:13-54
+41            android:required="false" />
+41-->[androidx.window:window:1.0.0] C:\Users\efe.yegitoglu\.gradle\caches\transforms-3\bf9b0913d8e1b66853cb8b139ceeb845\transformed\window-1.0.0\AndroidManifest.xml:27:13-37
+42        <uses-library
+42-->[androidx.window:window:1.0.0] C:\Users\efe.yegitoglu\.gradle\caches\transforms-3\bf9b0913d8e1b66853cb8b139ceeb845\transformed\window-1.0.0\AndroidManifest.xml:28:9-30:40
+43            android:name="androidx.window.sidecar"
+43-->[androidx.window:window:1.0.0] C:\Users\efe.yegitoglu\.gradle\caches\transforms-3\bf9b0913d8e1b66853cb8b139ceeb845\transformed\window-1.0.0\AndroidManifest.xml:29:13-51
+44            android:required="false" />
+44-->[androidx.window:window:1.0.0] C:\Users\efe.yegitoglu\.gradle\caches\transforms-3\bf9b0913d8e1b66853cb8b139ceeb845\transformed\window-1.0.0\AndroidManifest.xml:30:13-37
+45
+46        <provider
+46-->[androidx.emoji2:emoji2:1.2.0] C:\Users\efe.yegitoglu\.gradle\caches\transforms-3\e3f50642b63ac071fd0206e168352826\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+47            android:name="androidx.startup.InitializationProvider"
+47-->[androidx.emoji2:emoji2:1.2.0] C:\Users\efe.yegitoglu\.gradle\caches\transforms-3\e3f50642b63ac071fd0206e168352826\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+48            android:authorities="com.example.kolayhedef.androidx-startup"
+48-->[androidx.emoji2:emoji2:1.2.0] C:\Users\efe.yegitoglu\.gradle\caches\transforms-3\e3f50642b63ac071fd0206e168352826\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+49            android:exported="false" >
+49-->[androidx.emoji2:emoji2:1.2.0] C:\Users\efe.yegitoglu\.gradle\caches\transforms-3\e3f50642b63ac071fd0206e168352826\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+50            <meta-data
+50-->[androidx.emoji2:emoji2:1.2.0] C:\Users\efe.yegitoglu\.gradle\caches\transforms-3\e3f50642b63ac071fd0206e168352826\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+51                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+51-->[androidx.emoji2:emoji2:1.2.0] C:\Users\efe.yegitoglu\.gradle\caches\transforms-3\e3f50642b63ac071fd0206e168352826\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+52                android:value="androidx.startup" />
+52-->[androidx.emoji2:emoji2:1.2.0] C:\Users\efe.yegitoglu\.gradle\caches\transforms-3\e3f50642b63ac071fd0206e168352826\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+53            <meta-data
+53-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\efe.yegitoglu\.gradle\caches\transforms-3\78cebcf320c886221c6bd997a89bb0fe\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+54                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+54-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\efe.yegitoglu\.gradle\caches\transforms-3\78cebcf320c886221c6bd997a89bb0fe\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+55                android:value="androidx.startup" />
+55-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\efe.yegitoglu\.gradle\caches\transforms-3\78cebcf320c886221c6bd997a89bb0fe\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+56        </provider>
+57    </application>
+58
+59</manifest>

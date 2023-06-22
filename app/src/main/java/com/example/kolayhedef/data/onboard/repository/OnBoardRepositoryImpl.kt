@@ -7,6 +7,5 @@ import javax.inject.Inject
 @AndroidEntryPoint
 class OnBoardRepositoryImpl @Inject constructor(
     private val onBoardService: OnBoardService
-
 ) {
 }
